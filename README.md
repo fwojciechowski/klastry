@@ -13,3 +13,8 @@ Wszystkie aplikacje są budowane i uruchamiane za pomocą przepisu zawartego w p
 ```bash
 $ docker-compose build && docker-compose up
 ```
+
+## Uwagi
+Kontenery dokera dzialaja bez problemu w srodowisku Linuxowym. Jest prawdopodobne, ze zadzialaja rowniez w srodowisku MacOS.
+
+Jednak z powodu ograniczen w dzialaniu Dockera na maszynach korzystajacych z systemow Windows, mozna smialo zalozyc, ze chocby bez wirtualnej maszyny Linuxa, uruchomienie przykladu sie po prostu nie uda.
