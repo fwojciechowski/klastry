@@ -1,3 +1,15 @@
-# klastry
+# Advanced Message Queueing Protocol - czesc praktyczna
 
-Projekt o tytule &#34;Advanced Message Queueing Protocol - co to jest i do czego służy?&#34; - praktyczne zastosowanie protokołu
+Projekt przygotowany na zaliczenie przedmiotu Obliczenia rozproszone w klastrach i gridach.
+
+## Potrzebne narzedzia
+- Docker (https://www.docker.com/)
+- docker-compose (https://docs.docker.com/compose/overview/)
+
+## Uruchamianie
+
+Wszystkie aplikacje są budowane i uruchamiane za pomocą przepisu zawartego w pliku docker-compose.yml.
+
+```bash
+$ docker-compose build && docker-compose up
+```
