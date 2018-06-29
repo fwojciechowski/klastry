@@ -1,0 +1,38 @@
+version: '3'
+services:
+  amqp-broker:
+    image: 'rabbitmq:alpine'
+    networks:
+      default:
+        aliases:
+         - rabbitmq
+
+  analytics:
+    build: ./python-analytics
+    depends_on:
+      - amqp-broker
+    networks:
+      default:
+        aliases:
+         - analytics
+
+  producer:
+    build: ./java-producer
+    depends_on:
+      - amqp-broker
+    networks:
+      default:
+        aliases:
+         - producer
+
+  webinterface:
+    build: ./js-webinterface
+    depends_on:
+      - amqp-broker
+    ports:
+      - 3000:3000
+    restart: always
+    networks:
+      default:
+        aliases:
+         - webinterface

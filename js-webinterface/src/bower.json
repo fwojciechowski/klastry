@@ -1,0 +1,22 @@
+{
+  "name": "webinterface",
+  "description": "Interfejs dla przykladu zastosowania AMQP",
+  "main": "main.js",
+  "authors": [
+    "Filip Wojciechowski"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "highcharts": "^6.1.1"
+  }
+}
