@@ -17,4 +17,4 @@ $ docker-compose build && docker-compose up
 ## Uwagi
 Kontenery dokera dzialaja bez problemu w srodowisku Linuxowym (choćby i w maszynie wirtualnej). Jest prawdopodobne, ze zadzialaja rowniez w srodowisku MacOS.
 
-Jednak z powodu ograniczen w dzialaniu Dockera na maszynach korzystajacych z systemow Windows, mozna smialo zalozyc, ze uruchomienie przykladu sie po prostu nie uda.
+Jednak z powodu ograniczen w dzialaniu Dockera na maszynach korzystajacych z systemow Windows, mozna smialo zalozyc, ze uruchomienie przykladu sie po prostu na nich nie uda.

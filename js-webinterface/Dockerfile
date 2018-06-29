@@ -5,8 +5,6 @@ RUN apk update && apk upgrade && \
 
 WORKDIR /usr/src/app
 
-#RUN npm install amqplib
-#RUN npm install express
 COPY src .
 
 RUN npm install bower -g && npm install

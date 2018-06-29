@@ -39,22 +39,3 @@ function amqpListener () {
 
 
 
-// setTimeout(function() {
-//   amqp.connect('amqp://amqp-broker', function(err, conn) {
-//     conn.createChannel(function(err, ch) {
-//     let q = 'web';
-//
-//     ch.assertQueue(q, {durable: false});
-//
-//     console.log("Webinterface czeka na wiadomosci.", q);
-//     ch.consume(q, function(msg) {
-//       console.log(" [web] Otrzymano %s", msg.content.toString());
-//       x = (new Date()).getTime();
-//       y = +msg.content.toString();
-//     }, {noAck: true});
-//     });
-//   });
-// }, 5000);
-
-
-
